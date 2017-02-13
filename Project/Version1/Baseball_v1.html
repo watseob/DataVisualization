@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Base ball Visualization</title>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <style type="text/css">
+            svg {
+                height : 550px;
+                width: 1000px;
+                margin-top : 50px;
+            }
+
+            div {
+                display: block;
+            }
+            .nav-bar {
+                border-top: solid 1px #DDD;
+                padding: 10px 0 0;
+                margin: 0 10px;
+                z-index: 100;
+                position: absolute;
+                width: 950px;
+            }
+            ul {
+                list-style: none;
+                padding-left: 0;
+                margin: 0 0 0 0;
+            }
+            .summary {
+                margin-bottom: 10px;
+            }
+            .title {
+                margin-left: 10px;
+            }
+
+            .navigation li {
+                color: #999;
+                font-size: 14px;
+                cursor: pointer;
+                float: left;
+                padding: 10px 18px;
+                border-top: solid 1px #CCC;
+                border-bottom: solid 1px #CCC;
+                border-left: solid 1px #CCC;
+                background: #f9f9f9;
+                margin: 0 0;
+            }
+            .navigation li.selected {
+                color: #000;
+                background: #e9e9e9;
+                border-color: #AAA;
+                box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
+            }
+
+            .toolTip {
+                position: absolute;
+                display: none;
+                min-width: 80px;
+                height: auto;
+                background: none repeat scroll 0 0 #ffffff;
+                border: 1px solid #6F257F;
+                padding: 14px;
+                text-align: center;
+            }
+
+            #summary {
+                border-right: solid 1px #CCC;
+                border-radius: 0 4px 4px 0;
+            }
+            #all {
+
+                border-radius: 4px 0 0 4px;
+            }
+		</style>
+    </head>
+    <body>
+        <div class = "title">
+            <h6>2016.12.25</h6>
+            <h1>BaseBall</h1>
+            <div class = "summary">baseball_data</div>
+        </div>
+
+
+        <div id = "main">
+
+            <div id="toolbar" class = "nav-bar">
+                <ul class = "navigation">
+                    <li id = "all" class = "button selected">All</li>
+                    <li id = "hand" class = "button">Hand</li>
+                    <li id = "bmi" class = "button">Bmi</li>
+                    <li id = "avg" class = "button">Avg</li>
+                    <li id = "summary" class = "button">Summary</li>
+                </ul>
+            </div>
+            <div id = "vis"></div>
+
+        </div>
+        <div id = "describe">
+            Hi
+        </div>
+
+
+        <script src = "bubble_chart.js?"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+
+    </body>
+</html>
