@@ -1,5 +1,10 @@
 # Make effective Data Visualization.
-
+  
+***by Lim Joonseob.  
+Edited : 2016 - 12 - 26  
+Updated : 2017 - 1 - 24  
+watseob@gmail.com***  
+  
 ## Summary
   
 This project is to make a interactive data visualization with baseball players.  
@@ -35,4 +40,4 @@ There were many feedbacks about buggs and i fixed them.
 
 ## Resources  
 [Jim Vallandingham Blog](http://vallandingham.me/bubble_charts_in_d3.html)  
-This blog has really good tutorial to create animated bubble chart.
+-This blog has really good tutorial to create animated bubble chart.
