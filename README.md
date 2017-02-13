@@ -1,6 +1,7 @@
 # Make effective Data Visualization.
   
 [See the bubblechart](https://bl.ocks.org/watseob/77d87f836e6ae8aa6ddd60f5496783fe)  
+Currently version 3 is final version.  
   
 ***by Lim Joonseob.  
 Edited : 2016 - 12 - 26  
